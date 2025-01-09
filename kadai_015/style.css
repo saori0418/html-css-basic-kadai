@@ -1,0 +1,37 @@
+
+/* ここから　h1の装飾 google-fonts　*/
+h1 {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    text-shadow: 3px 3px 1px gray;
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+/* ここまで　h1の装飾 google-fonts　*/
+
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+}
+html {
+    font-size: 40px;
+}
+.blue {
+    color: skyblue;
+}
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+/* ここから　子孫要素 */
+#basic > p {
+    font-weight: bold;
+}
+/* ここまで　子孫要素 */
+
+
+
